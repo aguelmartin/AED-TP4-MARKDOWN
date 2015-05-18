@@ -1,0 +1,97 @@
+TP4 Pseudocodigo
+Martin Daniel Aguel (K1051)
+20150506 
+
+El programa es un juego que consiste en presentarle, al usuario, un menú con 3 categorias (Geografia, Matematica e Historia) para elegir, una vez que se selecciona una
+se presenta en pantalla preguntas (2 por cada categoria) con la metodologia de multiple choice de hasta 2 posibles respuestas por preguntas y luego de seleccionar la respuesta el 
+programa indica si es "Correcta" o "Incorrecta". Una vez terminado con todas las preguntas de la categoria, vuelve al menu principal para selecionar otra categoria o bien 
+cerrar por complento el programa.
+
+
+Variables m1, r1, resultado = Enteras
+
+REALIZAR cliclo DO-WHILE (M1 DISTINTO DE 4)
+ESCRIBIR "Juego de preguntas y respuestas, eliga la categoria:" << endl;
+ESCRIBIR  "1. Geografia"
+ESCRIBIR  "2. Matematica"
+ESCRIBIR  "3. Historia"
+ESCRIBIR  "4. Salir"
+LEER 	   m1;
+
+
+REALIZAR SELECCION (m1)
+
+	Para categoria 1
+	ESCRIBIR "Pregunta 1: La capital de Brasil es:"
+	ESCRIBIR "1. Brasilia"
+	ESCRIBIR "2. Rio"
+	LEER	 r1
+
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO"
+
+	ESCRIBIR "Pregunta 2: La capital de Uruguay es:"
+	ESCRIBIR "1. Montevideo"
+	ESCRIBIR "2. Bs As"
+	LEER	  R1
+	
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO
+	FINALIZAR
+
+	Para categoria 2
+	ESCRIBIR "Pregunta 1: Raiz cuadrada de 16:"
+	ESCRIBIR "1. 4"
+	ESCRIBIR "2. 8"
+	LEER	  r1
+
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO
+
+
+	ESCRIBIR "El doble de 100"
+	ESCRIBIR "1. 200" 
+	ESCRIBIR "2. 1000" 
+	LEER	  r1
+
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO"
+	FINALIZAR
+
+	Para categoria 3
+	ESCRIBIR "Pregunta 1: Fecha inicio 1er Guerra Mundial:"
+	ESCRIBIR "1. 1914"
+	ESCRIBIR "2. 1918"
+	LEER     r1
+
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO"
+
+	ESCRIBIR "Pregunta 2: Quien vencio en la 2da Guerra Mundial"
+	ESCRIBIR "1. Los Aliados"
+	ESCRIBIR "2. El Eje"
+	LEER	  r1
+
+	SI (r1 = 1)
+	ESCRIBIR "CORRECTO" 
+	SINO
+	ESCRIBIR "INCORRECTO"
+	FINALIZAR
+
+	Para categoria 4
+	CERRAR EL PROGRAMA
+	
+	ESCRIBIR PARA CASOS NO VALIDOS "Opcion no valida"
+
+
+FIN DEL PROGRAMA.-
